@@ -97,8 +97,7 @@ footer {
     width: 60%;
 }
 .social-icons .fab {
-    width: 33px;
-    height: 35px;
-   font-size: 20px;
-} 
-   
+    width: 28px;
+    height: 33px;
+    font-size: 12px;
+}
