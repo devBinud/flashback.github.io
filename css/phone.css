@@ -3,6 +3,10 @@
     padding-top: 100px;
     font-size:25px;
     color:rgb(37, 17, 17);
+    padding-bottom: 55px;
+}
+#preloader{
+    background-size:8%;
 }
 span{
     color:#831b1efd;
