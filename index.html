@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
+    <div id="preloader">
+
+    </div>
     <section class="header">
         <div id="particles-js">
         <nav>
@@ -130,4 +133,11 @@ Besides, my memories will die with me, but a photograph will remain after my dea
     <script src="particles.js"></script>
     <script src="app.js"></script>
 </body>
+<script>
+    var loader=document.getElementById("preloader");
+
+    window.addEventListener("load",function(){
+        loader.style.display="none";
+    })
+</script>
 </html>
